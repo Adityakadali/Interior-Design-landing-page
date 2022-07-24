@@ -13,7 +13,7 @@ Made by **Aditya Kadali**
 - Flexbox
 - Grid System
 
-## Key Learnings: 
+## Key Learnings:
 
 - Using divs as design elements
 - Learned to create background blur effect
@@ -22,5 +22,7 @@ Made by **Aditya Kadali**
 
 - This landing page took me 4.5 hours to build from scratch.
 
-## Links: 
+## Links:
 
+- [Live demo](https://interior-design-page.netlify.app/)
+- [Source code](https://github.com/Adityakadali/Interior-Design-landing-page)
