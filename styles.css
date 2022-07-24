@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url("./images/pexels-pixabay-276566.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  font-family: "DM Sans", sans-serif;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin-inline: 60px;
+  justify-content: space-between;
+}
+
+nav {
+  width: 100%;
+  margin: 0 40px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav li {
+  list-style: none;
+  margin: 20px;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.phone-logo {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5em;
+}
+
+nav {
+  border-bottom: 2px solid #fff;
+}
+
+nav .contact-group {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  margin: 50px 60px;
+  align-items: center;
+  gap: 2em;
+}
+
+.container .brand-title {
+  grid-column: span 7;
+}
+
+.brand-title .title {
+  font-size: 4em;
+}
+
+.card {
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  padding: 1.5em;
+  border-radius: 1em;
+}
+
+.card p {
+  font-weight: 600;
+}
+
+.icon-container {
+  width: fit-content;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.card-group-1 {
+  grid-column: span 5;
+  position: relative;
+}
+
+.card-group-2 {
+  grid-column: span 5;
+  position: relative;
+}
+
+.circle {
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  position: absolute;
+}
+
+.rectangle {
+  position: absolute;
+  width: 130px;
+  height: 1px;
+  background-color: #fff;
+}
+
+.card-group-1 .rectangle {
+  top: 50%;
+  right: -130px;
+}
+
+.card-group-1 .circle {
+  top: calc(50% - 5px);
+  right: -130px;
+}
+
+.learn {
+  grid-column: span 6;
+  width: fit-content;
+  padding: 0.5em 1em;
+  background-color: transparent;
+  border: 4px solid #fff;
+  border-radius: 2em;
+  color: #fff;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.card-group-2 .rectangle {
+  transform: rotate(90deg);
+  bottom: -30px;
+  left: 70px;
+  width: 60px;
+}
+
+.card-group-2 .circle {
+  bottom: -70px;
+  left: 95px;
+}
