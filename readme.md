@@ -26,3 +26,7 @@ Made by **Aditya Kadali**
 
 - [Live demo](https://interior-design-page.netlify.app/)
 - [Source code](https://github.com/Adityakadali/Interior-Design-landing-page)
+
+### Image credits:
+
+<a href="https://www.freepik.com/photos/carpet-rugs">Carpet rugs photo created by rawpixel.com - www.freepik.com</a>
