@@ -1,0 +1,62 @@
+@media (max-width: 960px) {
+  .nav-item {
+    display: none;
+  }
+
+  [alt="brand-logo"] {
+    height: 30px;
+  }
+
+  header {
+    width: 90%;
+    padding-block: 1rem;
+    margin: auto;
+  }
+  .container .brand-title {
+    grid-column: span 12;
+    order: -1;
+  }
+  .brand-title .title {
+    font-size: 2em;
+    max-width: 80%;
+  }
+
+  .card-group-1 {
+    grid-column: span 12;
+    margin: auto;
+    order: 1;
+  }
+
+  .card-group-2 {
+    grid-column: span 12;
+    margin: auto;
+    order: 1;
+  }
+
+  .learn {
+    grid-column: span 12;
+    order: 0;
+    transform: scale(0.8);
+  }
+}
+
+@media (max-width: 760px) {
+  body {
+    height: fit-content;
+  }
+}
+
+@media (max-width: 480px) {
+  [alt="Phone"] {
+    height: 24px;
+  }
+
+  body {
+    height: fit-content;
+    overflow: hidden;
+  }
+  .card-group-1,
+  .card-group-2 {
+    transform: scale(0.7);
+  }
+}
