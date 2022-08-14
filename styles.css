@@ -8,15 +8,10 @@
 }
 
 body {
-  background-image: linear-gradient(
-      rgba(0, 0, 0, 0.6) 0%,
-      rgba(0, 0, 0, 0.6) 100%
-    ),
-    url("./images/retro-living-room-interior-design.jpg");
+  background-image: url("./images/retro-living-room-interior-design.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh;
+  /* background-position: center; */
   font-family: "DM Sans", sans-serif;
   color: #fff;
 }
